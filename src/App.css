@@ -1,0 +1,44 @@
+.App {
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+warning{
+  color:red;
+}
+.lg{
+    width: 2vw ;
+}
+Form{
+  width: 20vw;
+  height: auto;
+  border:1px solid darkgrey;
+  border-radius: 10px;
+  float: right;
+  padding: 10px;
+
+}
+.ResultText{
+
+}
+div{
+  display: inline;
+}
+Form.Control{
+  margin: 5px 0px;
+}
+Form:hover{
+  box-shadow: 3px 1px lightblue;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
